@@ -1,0 +1,23 @@
+{
+    "name": "bdart/yii2-aws-s3",
+    "description": "Handle transfers with aws s3",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","aws","s3"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Daniel Fiebig",
+            "email": "mail@dfiebig.de",
+            "homepage": "http://dfiebig.de"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "aws/aws-sdk-php": "2.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "bdart\\resourcemanager\\": ""
+        }
+    }
+}
